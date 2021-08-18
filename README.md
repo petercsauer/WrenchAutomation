@@ -1,4 +1,4 @@
-# LoggerHead Tools Bionic Wrench Manufacturing Automation
+# Bionic Wrench Manufacturing Automation
 This is the repository for my final project in the MSR (Masters of Science in Robotics) program at Northwestern University. The project was to automate the production of the LoggerHead Tools Bionic Wrench.
 
 ## Overview
