@@ -16,9 +16,11 @@ At the start of the project I identified the structure as one of the main compon
 
 [![wrench_outer_jig_II](../media/Rig.png)](Iterations/Rig.stl)
 
-This design was clearly not very good as it was not dimensioned well to hold the wrench at all. This design evolved into something that was built off of the wrench's actual dimensions. It included a bit more support for the bottom of the wrench.
+Levi's Design
 
-[![wrench_outer_jig_III](../media/SideView.PNG)](Iterations/wrench_outer_jig_III.stl)
+[![wrench_outer_jig_III](../media/SideAngle.PNG)](Iterations/SideAngle.stl)
+
+My Design Refinement
 
 This design finally became dimensioned to precisely hold the wrench open to a certain angle - so as to allow for the jaws to be placed within the wrench. It further includes some protection against th wrench falling out of the jig since the final design requires for the jig and wrench combination to be held at a 90 degree angle.
 
