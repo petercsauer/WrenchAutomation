@@ -1,7 +1,7 @@
 # Code
 
-The code for this project was done in C in the [MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide). This code is written for and loaded onto a [PIC32MX250F128B](../Docs/PIC32MX1XX2XX-28-36-44-PIN-DS60001168K.pdf) microcontoller.
+The [MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide) was used in this project to program the [PIC32MX250F128B](../Docs/PIC32MX1XX2XX-28-36-44-PIN-DS60001168K.pdf) microcontoller. Code was written in C and programmed using the MPLab SNAP.
 
-The purpose of this code is to control how the electromagnet and stepper motor get triggered and rotated respectively. The code controls GPIO pins on the microcontroller to be set high and low so as to rotate the stepper motor the necessary amount at the correct time and turn the electromagnet on and off at the correct times. 
+The code for this project is relatively straightforward with two main functions. One function is control of the servo by varying the PWM output on pin 6 of the PIC32. By changing the PWM, the servo will go to different positions. The other function is for movement of the stepper motor. This is done again through PWM. There are also four additional wires going to the Pololu DRV8834 board, three of which control microstepping and the last controls direction.
 
-A user button is used to step through each state, being electromagnet off, electromagnet on and rotate stepper motor. This allows for easy control of the system. This code can be easily changed to not rely on the button, in order to run the process without human intervention
+Overall, the code activates a 6X loop when a limit switch is pressed and each time it goes through the loop the wrench moves 60 degrees, the feeder pushes out a new jaw and the wrench wiggles twice to attempt to ensure that the jaws fall back into place. At the end of the loop, the mechanism swings back around 360 degrees in the opposite direction to get back to 0.
