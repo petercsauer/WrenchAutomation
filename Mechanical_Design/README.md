@@ -61,7 +61,16 @@ The angled wall knocks off all pieces that arent in a vertical orientation, and 
 A second stepper motor and drive board were added to drive the leadscrew and pull the platform to vertical, but those were since removed because it was decided to be unnecessary. A servo was also added that drives the rack for the magazine feeder design. 
 
 ### Electromagnet
-An electromagnet is still used to hold the jaws in places as the platform is lowered to its horizontal position. Without the electromagnet, the jaws at the top of the wrench would fall out due to gravity on the way down. The electromagnet is embedded in the 3D printed wrench holder and is constantly on (run at 12V). 
+An electromagnet was still used to hold the jaws in places as the platform is lowered to its horizontal position. Without the electromagnet, the jaws at the top of the wrench would fall out due to gravity on the way down. The electromagnet is embedded in the 3D printed wrench holder and is constantly on (run at 12V). However in the most recent version the electromagnet was swapped for 6 smaller neodymium magnets -- mainly because the electromagnet was always on and its wires would constantly get tangled.
+
+### Wrench Holder
+The wrench holder also went through a few design iterations. Starting out with Levi's inital design, I hollowed out the back to make room for the electromagnet and simplified the design a little bit because some of the additional features from his original were no longer necessary with my new design. 
+
+<p float="left">
+  <img src="../media/LeviHolderRender.png" width=30% />
+  <img src="../media/HolderRenderV2.png" width=30% /> 
+  <img src="../media/HolderRenderV3.png" width=30% /> 
+</p>
 
 
 
