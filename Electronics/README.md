@@ -3,7 +3,7 @@
 This directory contains the eagle files that Levi created in his version of the device. My version did not modify his electronics besides the addition of a servo, the momentary addition of a second stepper motor and driver (which was later removed) and the removal of the electromagnet driver. 
 
 ## Levi's Electronics Notes
-## Microcontroller
+### Microcontroller
 
 The brains of the project allowing for the electromagnet to be triggered at the right time and controlling the rotation and timing of the stepper motor is a [PIC32MX250F128B](../Docs/PIC32MX1XX2XX-28-36-44-PIN-DS60001168K.pdf) microcontoller. 
 
@@ -11,7 +11,7 @@ The breakout schematic of this microcontroller, necessary for programming as wel
 
 ![PIC32_BREAKOUT](PIC32_BREAKOUT.png)
 
-## Stepper Motor Driver
+### Stepper Motor Driver
 
 The circuitry used to control the stepper motor is the Pololu [MD20b](https://www.pololu.com/product/2133/resources) chip. This chip is a breakout board for the [DRV8825](../Docs/drv8825.pdf) which has two H-bridge
 drivers and a microstepping indexer, along with some protective circuitry. This chip allows the stepper to be simply controlled by 3 GPIO pins to control the step resolution (M0,M1,M2) and one pin set to output a PWM signal (STEP). This chip also allows for 3.3V logic to be used from the microcontroller while supplying the motor with the 12V necesarry to use it. 
