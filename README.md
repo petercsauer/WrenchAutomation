@@ -16,7 +16,7 @@ Going into this project I knew there were three main areas that I wanted to targ
 
 The wrench placement process in the previous design required the user to take off a drive gear, place the wrench in a 3D printed holder and then reattatch the gear to the assembly using some magnetic latches as shown below.
 
-[![The Gear Mechanism](media/jig_gear.png)](Mechanical_Design/Current/3D_prints/Final.stl)
+[![The Gear Mechanism](media/FeederAssemV3Render.png)](Mechanical_Design/Current/3D_prints/Final.stl)
 
 My new mechanism uses a hinge to allow the wrench to be placed on in a horizontal orientation and then moved into a vertical orientation by just flipping the whole mechanism up. This can be done with a stepper motor and lead screw, but ultimately it was decided that its easy enough to do by hand. 
 
