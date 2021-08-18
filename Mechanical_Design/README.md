@@ -10,17 +10,17 @@ Because I was continuing work on another students' project, there were intial de
 
 ## Design Refinements
 ### Overall Structure
-At the start of the project I identified the structure as one of the main components that both wouldnt hold up to a manufacturing environment and could use some refinement to improve usability. Mainly, the old design was a little too flimsy (it was a prototype so this makes sense). To fix this issue, I came up with a new sheet metal pattern that I was able to cut out of aluminum using a waterjet and bend using a brake. It had relatively similar geometry to Levi's initial prototype, but the wrench would be placed on the inside, rather than the outside and the structure as a whole was bigger than the initial. Below is Levi's initial design, followed by my refinement.
+At the start of the project I identified the structure as one of the main components that both wouldnt hold up to a manufacturing environment and could use some refinement to improve usability. Mainly, the old design was a little too flimsy (it was a prototype so this makes sense). To fix this issue, I came up with a new sheet metal pattern that I was able to cut out of aluminum using a waterjet and bend using a brake. It had relatively similar geometry to Levi's initial prototype, but the wrench would be placed on the inside, rather than the outside and the structure as a whole was bigger than the initial. Below is the new design, followed by a wrench holder mechanism further discussed below.
 
 <p float="left">
-  <img src="../media/Rig.png" width=48% />
-  <img src="../media/SideAngle.PNG" width=48% /> 
+  <img src="../media/MainBodyRender.png" width=48% />
+  <img src="../media/WrenchPlateRenderBack.png" width=48% /> 
 </p>
 
 The new structure also has an important addition for usability. There is a middle panel that swings 90 degress from flat to vertical, allowing for easier wrench placement. The user can place the wrench in easily when it's in a horizontal mode and then the whole panel can be lifted up to interface with the jaw placement mechanism. Initially, this could be done using a stepper motor and lead screw, but ultimately it was decided that the user would be perfectly capable of doing this motion by hand so that was removed.
 
 <p float="left">
-  <img src="../media/SideAngle3.PNG" width=48% />
+  <img src="../media/MainAssemRender.png" padding-left=25% width=50% />
 </p>
 
 Embedded in this platform is the mechanism that rotates the wrench 60 degrees for each different jaw. This system is geared 2:1 so it has the required torque to rotate the wrench against gravity in its vertical position. 
@@ -49,7 +49,8 @@ Eventually I understood enough about what would knock the pieces off to 3D print
 The next step was to design a was for them to drop off the rail I had them running along into the vertical "pez dispenser" chute. This also took a few design iterations but eventually I ended up with this part, which interfaces at the end of the path on the bowl descrambler and at the top of the pez dispenser tube.
 
 <p float="left">
-  <img src="../media/RampSort.PNG" width=48% />
+    <img src="../media/RampSortV1Render.png" width=48% />
+  <img src="../media/RampSortV2Render.png" width=48% />
 </p>
 
 The angled wall knocks off all pieces that arent in a vertical orientation, and the sloped rail forces pieces that arent in the correct vertical orientation into a horizontal one, which causes them to get knocked off by the angled wall. The second longer wall with a slope at the end directs the pieces into the correct position to get picked up by the sloped rail. At the end, the box looking section is a funnel that funnels the pieces into a vertical magazine tube.
