@@ -49,7 +49,8 @@ Eventually I understood enough about what would knock the pieces off to 3D print
 The next step was to design a was for them to drop off the rail I had them running along into the vertical "pez dispenser" chute. This also took a few design iterations but eventually I ended up with this part, which interfaces at the end of the path on the bowl descrambler and at the top of the pez dispenser tube.
 
 <p float="left">
-  <img src="../media/RampSort.PNG" width=48% />
+    <img src="../media/RampSortV1Render.png" width=48% />
+  <img src="../media/RampSortV2Render.png" width=48% />
 </p>
 
 The angled wall knocks off all pieces that arent in a vertical orientation, and the sloped rail forces pieces that arent in the correct vertical orientation into a horizontal one, which causes them to get knocked off by the angled wall. The second longer wall with a slope at the end directs the pieces into the correct position to get picked up by the sloped rail. At the end, the box looking section is a funnel that funnels the pieces into a vertical magazine tube.
