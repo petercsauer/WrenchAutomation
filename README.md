@@ -1,4 +1,4 @@
-# Part_Placement_Automation_Project
+# LoggerHead Tools Bionic Wrench Manufacturing Automation
 This is the repository for my final project in the MSR (Masters of Science in Robotics) program at Northwestern University. The project was to automate the production of the LoggerHead Tools Bionic Wrench.
 
 ## Overview
@@ -27,7 +27,7 @@ For the jaw feeding process I started by modifying Levi's electromagnet techniqu
 ## Mechanical Design
 The mechanical design involved in this project was by far the most important, most complex and thus the most time consuming aspect of the project. As is the nature of design, it involved a lot of iterations as well as a few changes in approach that ultimately led to the final design. This final set up is shown below. [![Final](media/Final.png)]
 
-[![Final](media/Final.png)](Mechanical_Design/Current/3D_prints/Final.stl)
+[![Final](media/SideAngle.png)](Mechanical_Design/Current/3D_prints/Final.stl)
 
 The design process is discussed further in the [Mechanical Design Directory](/Mechanical_Design).
 
