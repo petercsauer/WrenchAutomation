@@ -14,9 +14,7 @@ A PIC32MX250F128B was used to control the system, along with a DRV8834 stepper c
 ## Approach
 Going into this project I knew there were three main areas that I wanted to target -- The wrench placement, jaw orientation process and jaw feeding process. 
 
-The wrench placement process in the previous design required the user to take off a drive gear, place the wrench in a 3D printed holder and then reattatch the gear to the assembly using some magnetic latches as shown below.
-
-[![The Gear Mechanism](media/jig_gear.png)](Mechanical_Design/Current/3D_prints/Final.stl)
+The wrench placement process in the previous design required the user to take off a drive gear, place the wrench in a 3D printed holder and then reattatch the gear to the assembly using some magnetic latches as can be see on [Levi's Repository](https://github.com/LeTo37/Part_Placement_Automation_Project).
 
 My new mechanism uses a hinge to allow the wrench to be placed on in a horizontal orientation and then moved into a vertical orientation by just flipping the whole mechanism up. This can be done with a stepper motor and lead screw, but ultimately it was decided that its easy enough to do by hand. 
 
