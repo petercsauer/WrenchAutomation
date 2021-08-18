@@ -21,7 +21,6 @@ The new structure also has an important addition for usability. There is a middl
 
 <p float="left">
   <img src="../media/SideAngle3.PNG" width=48% />
-
 </p>
 
 Embedded in this platform is the mechanism that rotates the wrench 60 degrees for each different jaw. This system is geared 2:1 so it has the required torque to rotate the wrench against gravity in its vertical position. 
@@ -36,9 +35,9 @@ I decided that I wanted a driven mechanism for getting the jaws into position, a
 For the final major design iteration on the feeding mechanism I realized that the wrench jaws were almost the same size and shape as a pez. I used a pez dispenser as inspiration and created a magazine style feeding mechanism that used a rod driven by a servo to push evenly on the whole back side of the jaw. This prevented any of the tweaking motion that jammed up the previous design. It also reduced the number of servos required by one. 
 
 <p float="left">
-  <img src="../media/FeederAssemV1.PNG" width=30% />
-  <img src="../media/FeederAssemV2.PNG" width=30% /> 
-  <img src="../media/FeederAssemV3.PNG" width=30% /> 
+  <img src="../media/FeederAssemV1Render.png" width=30% />
+  <img src="../media/FeederAssemV2Render.png" width=30% /> 
+  <img src="../media/FeederAssemV3Render.png" width=30% /> 
 </p>
 Left to Right - Electromagnet Design, Feeder Wheel Design, Magazine Design
 
