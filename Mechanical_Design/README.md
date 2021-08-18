@@ -1,7 +1,4 @@
 # Mechanical Design
-
-[![Final](../media/SideAngle.PNG)](Current/3D_Prints/Final.stl)
-
 The mechanical design part of this project was by far the hardest part. Many of the parts designed has complex geometries that required 11 hour + 3D print jobs per part. Because of this, a lot of analysis was done between part iterations to reduce "downtime" where I could not further refine the design. Although only a few key design iterations will be shown in this document, many smaller iterations took place on each part to enusre that the process ran smoothly and efficiently. 
 
 ## Initial Designs
@@ -11,6 +8,7 @@ Because I was continuing work on another students' project, there were intial de
 - Feeding Mechanism
 - Jaw Orientation.
 
+## Design Refinements
 ### Overall Structure
 At the start of the project I identified the structure as one of the main components that both wouldnt hold up to a manufacturing environment and could use some refinement to improve usability. Mainly, the old design was a little too flimsy (it was a prototype so this makes sense). To fix this issue, I came up with a new sheet metal pattern that I was able to cut out of aluminum using a waterjet and bend using a brake. It had relatively similar geometry to Levi's initial prototype, but the wrench would be placed on the inside, rather than the outside and the structure as a whole was bigger than the initial. Below is Levi's initial design, followed by my refinement.
 
@@ -26,24 +24,21 @@ The new structure also has an important addition for usability. There is a middl
 
 </p>
 
-### Inner Jig - Jaw Placement
-The jaw placement designs tell a story of the two key changes of approach that completely revolutionised how the whole project would look.
+### Feeding Mechanism
+The jaw feeding mechanism was the second design refinement I chose to tackle. Levi's design used an electromagnet to pull jaws one by one through a 3D printed tube, and then cut off power to the electromagnet allowing the jaw to fall into place in the wrench. I ultimately discovered that the electromagnet was too unreliable to continue to be used. It ended up being a passive drive to get the jaws into position so that they could be attracted by the electromagnet as well. 
 
-The first design for the inner jig was based off of the idea that the jaws would be fed into the system from above in a uniform manner. This meant that the jaws would have to be shifted in a translational manner between left and right so as to place the jaw in the wrench. 
+I tried using the electromagnet in an initial design and found that it wasn't strong enough to reliably pull jaws to the correct positon. I tried different electromagnets as well and even tried building my own to the specs I wanted, but none worked reliably. 
 
-[![Feed_from_top](../media/Feed_from_top.png)](Iterations/Feed_from_top.stl)
+I decided that I wanted a driven mechanism for getting the jaws into position, and that I wanted to rely less on the electromagnet. My inital design for this iteration was a feeder wheel driven by a continuous servo on the top of the jaws that would use friction to push the jaws through, and a "droprod" on the botton that could be pulled back by a second regular servo. The drop rod part of this iteration worked really well, but the feeder wheel had many issues. As the jaws went under the wheel, one edge would tweak up, causing the chute to become jammed and not let any other jaws through. I made a few different iterations of this design with tighter tolerances to try and prevent this behavior, but it just didn't end up working right.
 
-As can be seen in the above design, the jaw was supposed to be caught by the "jaw placer" in the middle of the jig. This would then be actuated from below in a translational manner so as to place the jaw. 
+For the final major design iteration on the feeding mechanism I realized that the wrench jaws were almost the same size and shape as a pez. I used a pez dispenser as inspiration and created a magazine style feeding mechanism that used a rod driven by a servo to push evenly on the whole back side of the jaw. This prevented any of the tweaking motion that jammed up the previous design. It also reduced the number of servos required by one. 
 
-The problem encountered with this design was that the reliability of the jaw falling in the correct orientation was low and the lack of physical space in which to actuate the "jaw placer". This led to the next idea which was to feed the jaws into the system from the bottom.
+<p float="left">
+  <img src="../media/FeederAssemV1.PNG" width=30% />
+  <img src="../media/FeederAssemV2.PNG" width=30% /> 
+  <img src="../media/FeederAssemV3.PNG" width=30% /> 
 
-This design was based off of the same principle of using a "jaw placer" in the center of the jig to place the jaws. But this time the jaws beign fed into the jig from the bottom would push against the ramp in the housing in the middle of the jig which would in turn force the jaw out of the opening and onto the "jaw placer". Subsequently, the "jaw placer" would then be actuated from below in a translational manner so as to place the jaw.
-
-[![Feed_from_bottom](../media/Feed_from_bottom.png)](Iterations/Feed_from_bottom.stl)
-
-This again saw similar problems as the "feed from the top" design as the jaw still had to fall into place and the room for actuation was not improved. 
-
-While playing around with the 3D printed models of the design, it was noticed that holding the center jig at a 90 degree angle to the wrench allowed for the jaws in the system to simply fall into place! This revelation led to the final approach used in the project.
+</p>
 
 ## Final Designs - Gravity is my Friend!
 
