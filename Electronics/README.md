@@ -29,5 +29,5 @@ A servo was added to the electronics part of this project. The servo had three w
 ### Overall Layout
 
 Here is a picture of the final layout of the system on it's breadboards. The smaller breadboard is running off of 12V (from an external supply) and the larger one runs off of USB which is converted to 3.3V by the Pololu voltage regulator you can see in the top center.
-![STEPPER_MOTOR_DRIVER](../media/electronics.png)
+![STEPPER_MOTOR_DRIVER](../media/Electronics.png)
 
