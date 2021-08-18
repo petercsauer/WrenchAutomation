@@ -1,20 +1,24 @@
 # Mechanical Design
 
-[![Final](../media/Final.png)](Current/3D_Prints/Final.stl)
+[![Final](../media/SideView.PNG)](Current/3D_Prints/Final.stl)
 
-As the most time consuming, complex and important aspect of this project, the mechanical design involves a lot of iterations. All iterations were useful in getting to the final design. However, the designs shown in this README are the ones in the `Iterations` and `Current` directories. These designs represent the designs finally used and the ones that came out of big changes to the approach.
+The mechanical design part of this project was by far the hardest part. Many of the parts designed has complex geometries that required 11 hour + 3D print jobs per part. Because of this, a lot of analysis was done between part iterations to reduce "downtime" where I could not further refine the design. Although only a few key design iterations will be shown in this document, many smaller iterations took place on each part to enusre that the process ran smoothly and efficiently. 
 
 ## Initial Designs
-The two initial goals of the design, deemed to be the most important in order to achieve the end goal, were to hold the wrench in place and then subsequently to be able to place a jaw in the wrench in a manner that could be repeated 6 times - for each jaw. This led to the first iterations of the design worth mentioning.  
+Because I was continuing work on another students' project, there were intial designs available for me to work off of. Right off the bat, I noticed two main areas of Levi's design that I wanted to improve upon and Professor Brown gave me one addition to make to the process as well. These three changes/additions became the backbone of my project and were:
 
-### Outer Jig - Wrench Holder
-It became clear that a way in which 6 jaws could be placed in a repetitive manner would be to hold the wrench in place around the center, wherein the jaw actuation would take place, and then rotate the wrench around this actuator. This led to the following design. The indentations around the circle are in there to allow for a jaw to be placed in any of those six spots. The raised bumps on either side of the circle are the to help fix the wrench in place.
+- Overall Structure
+- Feeding Mechanism
+- Jaw Orientation.
 
-[![wrench_outer_jig_II](../media/wrench_outer_jig_II.png)](Iterations/wrench_outer_jig_II.stl)
+### Overall Structure
+At the start of the project I identified the structure as one of the main components that both wouldnt hold up to a manufacturing environment and could use some refinement to improve usability. Mainly, the old design was a little too flimsy (it was a prototype so this makes sense). To fix this issue, I came up with a new sheet metal pattern that I was able to cut out of aluminum using a waterjet and bend using a brake. It had relatively similar geometry to Levi's initial prototype, but the wrench would be placed on the inside, rather than the outside and the structure as a whole was bigger than the initial. Below is Levi's initial design, followed by my refinement.
+
+[![wrench_outer_jig_II](../media/Rig.png)](Iterations/Rig.stl)
 
 This design was clearly not very good as it was not dimensioned well to hold the wrench at all. This design evolved into something that was built off of the wrench's actual dimensions. It included a bit more support for the bottom of the wrench.
 
-[![wrench_outer_jig_III](../media/wrench_outer_jig_III.png)](Iterations/wrench_outer_jig_III.stl)
+[![wrench_outer_jig_III](../media/SideView.PNG)](Iterations/wrench_outer_jig_III.stl)
 
 This design finally became dimensioned to precisely hold the wrench open to a certain angle - so as to allow for the jaws to be placed within the wrench. It further includes some protection against th wrench falling out of the jig since the final design requires for the jig and wrench combination to be held at a 90 degree angle.
 
