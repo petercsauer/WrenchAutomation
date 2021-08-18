@@ -42,7 +42,7 @@ For the final major design iteration on the feeding mechanism I realized that th
 </p>
 Left to Right - Electromagnet Design, Feeder Wheel Design, Magazine Design
 
-## Jaw Orientation
+### Jaw Orientation
 This objective was given to me by Professor Brown, with the goal of being able to dump jaws into a bowl descrambler and have them load directly into the jaw feeder in the correct orientation. A bowl descrambler vibrates enough to drive jaws up a ramp and they get knocked off at different points along the way if they arent in the correct orientation. For this part of the project, I spent a good deal of time getting familiar with the technology by placing cardboard and metal knockoff pieces using tape. 
 
 Eventually I understood enough about what would knock the pieces off to 3D print a design to attempt it. After a few revisions of this part, I was able to get the pieces consitently coming out of the machine in the correct orientation, running along a rail.
@@ -55,48 +55,13 @@ The next step was to design a was for them to drop off the rail I had them runni
 
 The angled wall knocks off all pieces that arent in a vertical orientation, and the sloped rail forces pieces that arent in the correct vertical orientation into a horizontal one, which causes them to get knocked off by the angled wall. The second longer wall with a slope at the end directs the pieces into the correct position to get picked up by the sloped rail. At the end, the box looking section is a funnel that funnels the pieces into a vertical magazine tube.
 
-## Final Designs - Gravity is my Friend!
-
-### Inner Jig
-The final design idea is to have the jaws being fed laterally into the inner jig. Once in the inner jig, these jaws can then fall into the wrench if the outerjig holds the wrench in the correct spot. Below is the design for the inner jig, along with a feeding tube used to get the jaws into the jig<span>&#58;</span>
-
-[![Feed_from_bottom](../media/Assembly_feeder&inner.png)](Current/3D_Prints/feeder_plus_inner.stl)
-
-With this design, some key objectives in order to make it useful are to propel the jaws along the feeding tube into the inner jig, control how and when the jaws are dropped into the wrench and to keep the jaws in the correct orientation so that they can fall into place. A simple solution to solve all three of these objectives is to use an electromagnet placed at the head of the inner jig as well as a steel bar placed above the head of the inner jig that extends to the feeding tube. This bar will act as a magnet when the electromagnet is on and as such will keep the jaws oriented correctly. The recess for this steel bar can be seen in the image above. The placement of the electromagnet can be seen in the full assemnbly of the final design. 
-
-### Rig
-In order to have this design held at 90 degrees, a rig was designed. This rig was designed with two main objectives, it had to be able to support the weight of all the necessary components of the design and it had to allow for the movement necessary for the design. It can be seen below<span>&#58;</span>
-
-[![Feed_from_bottom](../media/Rig.png)](Current/Laser_Cut_Pieces/Rig.stl)
-
-This rig is made from 3mm thick acryllic sheets and was laser cut and assembled from 6 parts. The drawings of these cuts can be found in `.dxf` format in the `/Current/Laser_Cut_Pieces` directory. The rig has holes in the front piece, these holes are there to allow for the necessary components of the design to be screwed into the correct location.
-
-### Gears
-
-With the rig and inner jig in place, in order to rotate the outer jig holding the wrench around the inner jig - in order to place 6 jaws, it became clear that a gear system driven by a motor would be necessary. The gears were designed such that the driver gear could be controlled by a stepper motor and the driven gear can hold and rotate the outer jig. The gears were designed with a teetch ratio of 35/15. This was chosen to allow for easy rotation in minimal space, allowing the driver gear to be small but not require a very strong motor.
-
-The driven gear was 3D printed so as to allow for it to be connected to the stepper motor using a sprocket with a set screw. This design is shown below, including the sprocket used<span>&#58;</span>
-
-[![Feed_from_bottom](../media/gear_driver.png)](Current/3D_Prints/gear_driver.stl)
-
-The driven gear was laser cut and designed with a hole in the middle of it, in the shape of the outer jig. The outer jig was then joined to the gear making it one part capable of rotating around the inner jig while holding onto the wrench. The driven gear with the outer jig holding a wrench can be seen below<span>&#58;</span>
-[![Feed_from_bottom](../media/jig_gear.png)](Current/Laser_Cut_Pieces/jig_gear.stl)
-
-
-### Clamps
-
-Since the driven gear has to hold the wrench, this part, with the wrench in place, is heavy and could easily fall of the front of the rig. With this in mind, magnetic clamps were designed to hold the driven gear flush to the face of the rig while still allowing for full rotation of the gear. 
-
-These are design to hold magnets on either side of the rig. This allows for the driven gear and the wrench to be easily removed for a new wrench to be placed into the system, yet it allows for the gear to rotate freely and mesh properly with the driver gear. The design is shown below, the cylindrical holes are dimensioned to hold magnets firmly in place.<span>&#58;</span>
-[![Feed_from_bottom](../media/clamp.png)](Current/3D_Prints/clamp.stl) 
+## Other components
 
 ### Actuators
+A second stepper motor and drive board were added to drive the leadscrew and pull the platform to vertical, but those were since removed because it was decided to be unnecessary. A servo was also added that drives the rack for the magazine feeder design. 
 
-In order to actuate the design as described, the electromagnet and stepper motor being used will need to be held in place.
-
-The motor was held in place, with its shaft, at the necessary distance using a spacer screwed into both the front of the rig as well as the actual motor. This [spacer](Current/3D_Prints/motor_spacer.stl) was 3D printed.  
-
-Further, the electromagnet needs to be held at the head of the inner jig. This holder was made of two 3D printed parts, [elecmag_holder1](Current/3D_Prints/elecmag_holder1.stl) and [elecmag_holder2](Current/3D_Prints/elecmag_holder2.stl). This was designed to be ble to hold the heavy electromagnet in place while allowing for the full rotation of the wrench. 
+### Electromagnet
+An electromagnet is still used to hold the jaws in places as the platform is lowered to its horizontal position. Without the electromagnet, the jaws at the top of the wrench would fall out due to gravity on the way down. The electromagnet is embedded in the 3D printed wrench holder and is constantly on (run at 12V). 
 
 
 
