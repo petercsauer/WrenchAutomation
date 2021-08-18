@@ -25,11 +25,11 @@ For the jaw orientation process, there was not really any work already completed
 For the jaw feeding process I started by modifying Levi's electromagnet technique, which would use an electromagnet to pull the jaw into position and then shut it off, allowing the jaw to succumb to gravity and fall into place. Unfortunately, I found this method to be unreliable, so I switched to a more mechanical design. This second big design iteration used a rod on the bottom and a feeding mechanism on top to feed the pieces through a track and also control when they were allowed to fall out as well. The main issue with this design was that despite numerous design iterations, I couldn't get the pieces to feed without catching on the track walls and jamming up the system. For the final big design iteration, I decided to switch to a magazine type feeder that uses a vertical tube and a pushrod to feed out the pieces like a pez dispenser. This method worked far better than the others and allowed for easy integration with the bowl descrambler through a vertical tube.
 
 ## Mechanical Design
-The mechanical design involved in this project was by far the most important, most complex and thus the most time consuming aspect of the project. As is the nature of design, it involved a lot of iterations as well as a few changes in approach that ultimately led to the final design. This final set up is shown below. [![Final](media/Final.png)]
+The mechanical design involved in this project was by far the most important, most complex and thus the most time consuming aspect of the project. As is the nature of design, it involved a lot of iterations as well as a few changes in approach that ultimately led to the final design. This final set up is shown below.
 
 [![Final](media/SideAngle.PNG)](Mechanical_Design/Current/3D_prints/Final.stl)
 
-The design process is discussed further in the [Mechanical Design Directory](/Mechanical_Design).
+For more detailed descriptions of the mechanical design process please visit the [Mechanical Design Directory](/Mechanical_Design).
 
 ## Electronics
 
