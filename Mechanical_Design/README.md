@@ -37,7 +37,7 @@ For the final major design iteration on the feeding mechanism I realized that th
 <p float="left">
   <img src="../media/FeederAssemV1Render.png" width=30% />
   <img src="../media/FeederAssemV2Render.png" width=30% /> 
-  <img src="../media/FeederAssemV3Render.png" width=30% /> 
+  <img src="../media/FeederAssemV3Close.png" width=30% /> 
 </p>
 Left to Right - Electromagnet Design, Feeder Wheel Design, Magazine Design
 
