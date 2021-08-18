@@ -1,6 +1,6 @@
 # Mechanical Design
 
-[![Final](../media/SideView.PNG)](Current/3D_Prints/Final.stl)
+[![Final](../media/SideAngle.PNG)](Current/3D_Prints/Final.stl)
 
 The mechanical design part of this project was by far the hardest part. Many of the parts designed has complex geometries that required 11 hour + 3D print jobs per part. Because of this, a lot of analysis was done between part iterations to reduce "downtime" where I could not further refine the design. Although only a few key design iterations will be shown in this document, many smaller iterations took place on each part to enusre that the process ran smoothly and efficiently. 
 
@@ -19,9 +19,12 @@ At the start of the project I identified the structure as one of the main compon
   <img src="../media/SideAngle.PNG" width=48% /> 
 </p>
 
-This design finally became dimensioned to precisely hold the wrench open to a certain angle - so as to allow for the jaws to be placed within the wrench. It further includes some protection against th wrench falling out of the jig since the final design requires for the jig and wrench combination to be held at a 90 degree angle.
+The new structure also has an important addition for usability. There is a middle panel that swings 90 degress from flat to vertical, allowing for easier wrench placement. The user can place the wrench in easily when it's in a horizontal mode and then the whole panel can be lifted up to interface with the jaw placement mechanism. Initially, this could be done using a stepper motor and lead screw, but ultimately it was decided that the user would be perfectly capable of doing this motion by hand so that was removed.
 
-[![jig](../media/jig.png)](Current/3D_Prints/jig.stl)
+<p float="center">
+  <img src="../media/SideAngle3.PNG" width=48% />
+
+</p>
 
 ### Inner Jig - Jaw Placement
 The jaw placement designs tell a story of the two key changes of approach that completely revolutionised how the whole project would look.
