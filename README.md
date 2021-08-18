@@ -16,7 +16,7 @@ Going into this project I knew there were three main areas that I wanted to targ
 
 The wrench placement process in the previous design required the user to take off a drive gear, place the wrench in a 3D printed holder and then reattatch the gear to the assembly using some magnetic latches as shown below.
 
-[![The Gear Mechanism](media/FeederAssemV3Render.png)](Mechanical_Design/Current/3D_prints/Final.stl)
+[![The Gear Mechanism](media/jig_gear.png)](Mechanical_Design/Current/3D_prints/Final.stl)
 
 My new mechanism uses a hinge to allow the wrench to be placed on in a horizontal orientation and then moved into a vertical orientation by just flipping the whole mechanism up. This can be done with a stepper motor and lead screw, but ultimately it was decided that its easy enough to do by hand. 
 
@@ -27,7 +27,7 @@ For the jaw feeding process I started by modifying Levi's electromagnet techniqu
 ## Mechanical Design
 The mechanical design involved in this project was by far the most important, most complex and thus the most time consuming aspect of the project. As is the nature of design, it involved a lot of iterations as well as a few changes in approach that ultimately led to the final design. This final set up is shown below.
 
-[![Final](media/SideAngle.PNG)](Mechanical_Design/Current/3D_prints/Final.stl)
+[![Final](media/MainAssemRender.png)](Mechanical_Design/Current/3D_prints/Final.stl)
 
 For more detailed descriptions of the mechanical design process please visit the [Mechanical Design Directory](/Mechanical_Design).
 
