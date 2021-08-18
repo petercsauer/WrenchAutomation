@@ -14,16 +14,17 @@ At the start of the project I identified the structure as one of the main compon
 
 <p float="left">
   <img src="../media/Rig.png" width=48% />
-  <figcaption> Figure caption... </figcaption>
   <img src="../media/SideAngle.PNG" width=48% /> 
 </p>
 
 The new structure also has an important addition for usability. There is a middle panel that swings 90 degress from flat to vertical, allowing for easier wrench placement. The user can place the wrench in easily when it's in a horizontal mode and then the whole panel can be lifted up to interface with the jaw placement mechanism. Initially, this could be done using a stepper motor and lead screw, but ultimately it was decided that the user would be perfectly capable of doing this motion by hand so that was removed.
 
-<p float="center">
+<p float="left">
   <img src="../media/SideAngle3.PNG" width=48% />
 
 </p>
+
+Embedded in this platform is the mechanism that rotates the wrench 60 degrees for each different jaw. This system is geared 2:1 so it has the required torque to rotate the wrench against gravity in its vertical position. 
 
 ### Feeding Mechanism
 The jaw feeding mechanism was the second design refinement I chose to tackle. Levi's design used an electromagnet to pull jaws one by one through a 3D printed tube, and then cut off power to the electromagnet allowing the jaw to fall into place in the wrench. I ultimately discovered that the electromagnet was too unreliable to continue to be used. It ended up being a passive drive to get the jaws into position so that they could be attracted by the electromagnet as well. 
@@ -38,8 +39,21 @@ For the final major design iteration on the feeding mechanism I realized that th
   <img src="../media/FeederAssemV1.PNG" width=30% />
   <img src="../media/FeederAssemV2.PNG" width=30% /> 
   <img src="../media/FeederAssemV3.PNG" width=30% /> 
-
 </p>
+Left to Right - Electromagnet Design, Feeder Wheel Design, Magazine Design
+
+## Jaw Orientation
+This objective was given to me by Professor Brown, with the goal of being able to dump jaws into a bowl descrambler and have them load directly into the jaw feeder in the correct orientation. A bowl descrambler vibrates enough to drive jaws up a ramp and they get knocked off at different points along the way if they arent in the correct orientation. For this part of the project, I spent a good deal of time getting familiar with the technology by placing cardboard and metal knockoff pieces using tape. 
+
+Eventually I understood enough about what would knock the pieces off to 3D print a design to attempt it. After a few revisions of this part, I was able to get the pieces consitently coming out of the machine in the correct orientation, running along a rail.
+
+The next step was to design a was for them to drop off the rail I had them running along into the vertical "pez dispenser" chute. This also took a few design iterations but eventually I ended up with this part, which interfaces at the end of the path on the bowl descrambler and at the top of the pez dispenser tube.
+
+<p float="left">
+  <img src="../media/RampSort.PNG" width=48% />
+</p>
+
+The angled wall knocks off all pieces that arent in a vertical orientation, and the sloped rail forces pieces that arent in the correct vertical orientation into a horizontal one, which causes them to get knocked off by the angled wall. The second longer wall with a slope at the end directs the pieces into the correct position to get picked up by the sloped rail. At the end, the box looking section is a funnel that funnels the pieces into a vertical magazine tube.
 
 ## Final Designs - Gravity is my Friend!
 
