@@ -15,8 +15,8 @@ Because I was continuing work on another students' project, there were intial de
 At the start of the project I identified the structure as one of the main components that both wouldnt hold up to a manufacturing environment and could use some refinement to improve usability. Mainly, the old design was a little too flimsy (it was a prototype so this makes sense). To fix this issue, I came up with a new sheet metal pattern that I was able to cut out of aluminum using a waterjet and bend using a brake. It had relatively similar geometry to Levi's initial prototype, but the wrench would be placed on the inside, rather than the outside and the structure as a whole was bigger than the initial. Below is Levi's initial design, followed by my refinement.
 
 <p float="left">
-  <img src="../media/jig.png" width=50% />
-  <img src="../media/SideAngle.PNG" width=50% /> 
+  <img src="../media/Rig.png" width=48% />
+  <img src="../media/SideAngle.PNG" width=48% /> 
 </p>
 
 This design finally became dimensioned to precisely hold the wrench open to a certain angle - so as to allow for the jaws to be placed within the wrench. It further includes some protection against th wrench falling out of the jig since the final design requires for the jig and wrench combination to be held at a 90 degree angle.
