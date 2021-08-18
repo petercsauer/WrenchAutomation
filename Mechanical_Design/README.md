@@ -72,5 +72,7 @@ The wrench holder also went through a few design iterations. Starting out with L
   <img src="../media/HolderRenderV3.png" width=30% /> 
 </p>
 
+In the final design iteration for this part, I used 6 neodymium magnets instead of the electromagnet to improve reliability and get rid of the wires coming off of the electromagnet which would often get tangled.
+
 
 
