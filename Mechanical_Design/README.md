@@ -20,7 +20,7 @@ At the start of the project I identified the structure as one of the main compon
 The new structure also has an important addition for usability. There is a middle panel that swings 90 degress from flat to vertical, allowing for easier wrench placement. The user can place the wrench in easily when it's in a horizontal mode and then the whole panel can be lifted up to interface with the jaw placement mechanism. Initially, this could be done using a stepper motor and lead screw, but ultimately it was decided that the user would be perfectly capable of doing this motion by hand so that was removed.
 
 <p float="left">
-  <img src="../media/MainAssemRender.png" width=100% />
+  <img src="../media/MainAssemRender.png" padding-left=25% width=50% />
 </p>
 
 Embedded in this platform is the mechanism that rotates the wrench 60 degrees for each different jaw. This system is geared 2:1 so it has the required torque to rotate the wrench against gravity in its vertical position. 
