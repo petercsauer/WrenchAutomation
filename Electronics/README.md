@@ -3,7 +3,6 @@
 This directory contains the eagle files that Levi created in his version of the device. My version did not modify his electronics besides the addition of a servo, the momentary addition of a second stepper motor and driver (which was later removed) and the removal of the electromagnet driver. 
 
 
-
 ## Microcontroller
 
 For this project the [PIC32MX250F128B](../Docs/PIC32MX1XX2XX-28-36-44-PIN-DS60001168K.pdf) was used as the control unit for the process. It was used to control the stepper motor and servo and in the past was used to control an electromagnet, but ultimately it was decided to keep that on full time.
